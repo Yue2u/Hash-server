@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hash-server"
+version = "0.1.0"
+description = ""
+authors = ["Yue2u <beloleg225@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+pydantic = "^2.7.1"
+click = "^8.1.7"
+pytest = "^8.2.0"
+uvicorn = "^0.29.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
